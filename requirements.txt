@@ -1,0 +1,17 @@
+torch==2.8.0+cu126
+torchaudio==2.8.0+cu126
+torchvision==0.23.0+cu126
+transformers==4.57.0
+sentencepiece
+huggingface-hub
+numpy
+pandas
+tqdm
+requests
+python-dotenv
+soundfile
+librosa
+deep-translator==1.11.4
+gtts
+pydub
+gradio==5.12.0
