@@ -25,7 +25,8 @@ An interactive, multimodal healthcare assistant that simulates preliminary medic
 
 ## 🛠️ System Architecture & Workflow
 
-The system operates on a modular three-phase processing pipeline:
+The system operates on a modular three-phase processing pipeline: 
+```text
               ┌──────────────────────┐
               │ Patient Inputs       │
               │ (Voice / Image)      │
@@ -58,6 +59,7 @@ The system operates on a modular three-phase processing pipeline:
                                     │ Audio Output    │
                                     │   (MP3 Play)    │
                                     └─────────────────┘
+```
 
 1. **Input Phase:** The patient uploads a medical image or records voice input.
 2. **Speech & Vision Processing:**
